@@ -1,5 +1,4 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
 }
 
@@ -7,30 +6,36 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+label{
+    margin: 7px;   
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-h1 span{
-    font-size: 3rem;
-    color: black;
-    height: 200px;
-    position: absolute;
-    width: 30px;
-    left: 50%;
-    top: 0;
-    transform-origin: bottom center;
+#square {
+    display: flex;
+    width: 30rem;
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid black;
 }
 
-.char1 { transform: rotate(-90deg); }
-.char2 { transform: rotate(-75deg); }
-.char3 { transform: rotate(-60deg); }
-.char4 { transform: rotate(-45deg); }
-.char5 { transform: rotate(-30deg); }
-.char6 { transform: rotate(-15deg); }
-.char7 { transform: rotate(0deg); }
-.char8 { transform: rotate(15deg); }
-.char9 { transform: rotate(30deg); }
-.char10 { transform: rotate(45deg); }
-.char11 { transform: rotate(60deg); }
-.char12 { transform: rotate(75deg); }
-.char13 { transform: rotate(90deg); }
+#textarea {
+    text-align: center;
+    width: 29rem;
+    border: 1px solid green;
+    resize: none;
+    padding: 20px;
+    font-size: 13px;
+}
+
+#result {
+    margin-bottom: 20px;
+}
